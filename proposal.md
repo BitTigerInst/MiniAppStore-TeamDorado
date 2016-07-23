@@ -30,7 +30,7 @@ Stage | Start    | End      | Goals
 2     | 07/25/16 | 07/31/16 | Bootstrap major functions
 3     | 08/01/16 | 08/07/16 | MileStone1: App running with major functions
 4     | 08/08/16 | 08/14/16 | Optional functions
-5     | 08/15/16 | 08/21/16 | Optional functions & test
+5     | 08/15/16 | 08/21/16 | MileStone2: Compelete functions & test
 
 ## Resource
 
