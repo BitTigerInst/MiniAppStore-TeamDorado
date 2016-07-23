@@ -23,9 +23,7 @@ Download this branch to your local machine and run index.html on any server.
 - License
 - Project Information
 
-### Template
 
-- [proposal_template](./proposal_template.md)
 
 ## 2\. Readme
 
@@ -51,11 +49,5 @@ Download this branch to your local machine and run index.html on any server.
 - License
 - Project Information
 
-### Template
 
-- [readme_template](https://github.com/hackjustu/Github-Ranking-FrontEnd)
 
-## 3\. Other Resource
-
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#headers)
-- [Resource Summary](./Resource.md)
