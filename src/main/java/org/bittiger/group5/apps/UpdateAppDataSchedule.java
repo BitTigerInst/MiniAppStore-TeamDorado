@@ -24,18 +24,30 @@ public class UpdateAppDataSchedule {
     @Autowired
     private ElasticsearchTemplate elasticsearchTemplate;
 
+    /**
+     *  Need to be refactored
+     */
     @Scheduled(fixedRate = 3600000)
     public void updateAppData() {
         RestTemplate restTemplate = new RestTemplate();
         String uri = MiniAppConstants.SEARCH_TOP_APPS_URL;
         ObjectNode request = getPostRequest();
-        Apps apps = restTemplate.postForObject(uri, request, Apps.class);
         repository.deleteAll();
+        Apps apps = restTemplate.postForObject(uri, request, Apps.class);
+        for (App app : apps.getApps()) {
+            repository.save(app);
+        }
+
+        apps = restTemplate.getForObject(MiniAppConstants.SEARCH_ACTION_APPS_URL, Apps.class);
         for (App app : apps.getApps()) {
             repository.save(app);
         }
     }
 
+    /**
+     *
+     * @return
+     */
     public ObjectNode getPostRequest() {
         ObjectMapper mapper = new ObjectMapper();
         ObjectNode request = mapper.createObjectNode();
