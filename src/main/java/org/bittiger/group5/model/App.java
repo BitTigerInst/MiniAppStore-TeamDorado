@@ -12,7 +12,7 @@ import org.springframework.data.elasticsearch.annotations.Document;
 @Document(indexName = "app", type = "app", shards = 1, replicas = 0)
 public class App {
 	@Id
-	private Long id;
+	private Long trackId;
 	private Long artistId;
 	private String artistName;
 	private String description;
@@ -21,12 +21,12 @@ public class App {
 	private double averageUserRating;
 	private String trackCensoredName;
 
-	public Long getId() {
-		return id;
+	public Long getTrackId() {
+		return trackId;
 	}
 
-	public void setId(Long id) {
-		this.id = id;
+	public void setTrackId(Long trackId) {
+		this.trackId = trackId;
 	}
 
 	public Long getArtistId() {

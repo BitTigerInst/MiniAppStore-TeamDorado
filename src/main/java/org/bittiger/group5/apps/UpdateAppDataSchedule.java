@@ -25,7 +25,7 @@ public class UpdateAppDataSchedule {
     private ElasticsearchTemplate elasticsearchTemplate;
 
     /**
-     *  Need to be refactored
+     *
      */
     @Scheduled(fixedRate = 3600000)
     public void updateAppData() {
@@ -37,15 +37,10 @@ public class UpdateAppDataSchedule {
         for (App app : apps.getApps()) {
             repository.save(app);
         }
-
-        apps = restTemplate.getForObject(MiniAppConstants.SEARCH_ACTION_APPS_URL, Apps.class);
-        for (App app : apps.getApps()) {
-            repository.save(app);
-        }
     }
 
     /**
-     *
+     * Need to be refactored
      * @return
      */
     public ObjectNode getPostRequest() {
@@ -54,7 +49,7 @@ public class UpdateAppDataSchedule {
         ObjectNode query = mapper.createObjectNode();
         ObjectNode queryParams = mapper.createObjectNode();
         queryParams.put("from", 0);
-        queryParams.put("num", 10);
+        queryParams.put("num", 100);
         queryParams.put("sort", "userRatingCount");
         queryParams.put("sort_order", "desc");
         query.put("name", "Most Popular Apps");
