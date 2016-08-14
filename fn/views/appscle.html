@@ -1,0 +1,15 @@
+<div class="apps row">
+
+  <!-- 
+  TODO: Loop through myBooks and display each one with this HTML
+	-->
+  <div ng-repeat="app in apps" class="app col-md-3">
+    <a href="#/apps/{{$index}}">
+      <img ng-src="{{app.cover}}">
+      <h3 class="title"> {{app.title}} </h3>
+      <p class="author"> {{app.author}} </p>
+    </a>
+  </div>
+  
+
+</div>
