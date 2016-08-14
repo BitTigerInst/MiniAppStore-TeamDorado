@@ -16,6 +16,7 @@ public class App {
 	private Long artistId;
 	private String artistName;
 	private String description;
+	private String artworkUrl100;
 	private List<Integer> genreIds;
 	private List<String> genres;
 	private double averageUserRating;
@@ -83,5 +84,13 @@ public class App {
 
 	public void setTrackCensoredName(String trackCensoredName) {
 		this.trackCensoredName = trackCensoredName;
+	}
+
+	public String getArtworkUrl100() {
+		return artworkUrl100;
+	}
+
+	public void setArtworkUrl100(String artworkUrl100) {
+		this.artworkUrl100 = artworkUrl100;
 	}
 }
