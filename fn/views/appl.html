@@ -2,9 +2,14 @@
 
 <div class="app-detail">
   <!-- TODO: Add the app's cover here -->
-  <h3 class="title"> {{app.title}} </h3>
-  <p class="author">{{app.artistName}}  </p>
+  <h3 class="trackId"> {{app.trackId}} </h3>
+  <p class="artistId">{{app.artistId}}  </p>
+  <p class="artistName">{{app.artistName}}  </p>
   <p class="description">{{app.description}}  </p>
+  <p class="genreIds">{{app.genreIds}}</p>
+  <p class="genres">{{app.genres}}</p>
+  <p class="averageUserRating">{{app.averageUserRating}}</p>
+  <p class="trackCensoredName">{{app.trackCensoredName}}</p>
 
   <a class="button" href="#/books/{{ currentBookIndex }}/chapters/0">Read</a>
 </div>
