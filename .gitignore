@@ -1,0 +1,5 @@
+# Build results
+build/
+
+# Gradle files
+.gradle/
