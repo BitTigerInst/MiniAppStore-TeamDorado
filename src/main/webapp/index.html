@@ -1,0 +1,33 @@
+
+<html>
+ <head>
+   <link href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css" rel="stylesheet" />
+   <link href="css/main.css" rel="stylesheet" />
+   <script src="js/vendor/angular.min.js"></script>
+   <script src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script>
+ </head>
+ <body ng-app="appsApp">
+   <div class="header">
+     <div class="container">
+       <img src= "img/logo.svg" width="51" height="54">
+     </div>
+   </div>
+
+   <div class="main">
+     <div ng-view></div>
+     <div class="container">
+     </div>
+   </div>
+
+   <!-- Modules -->
+   <script src="/js/app.js"></script>
+
+   <!-- Controllers -->
+   <script src="/js/controllers/AppController.js"></script>
+   <script src="/js/controllers/AppDetailController.js"></script>
+
+   <!-- Services -->
+   <script src="/js/services/apps.js"></script>
+
+ </body>
+</html>

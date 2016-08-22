@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MiniAppStore-TeamDorado.iml" filepath="$PROJECT_DIR$/.idea/modules/MiniAppStore-TeamDorado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MiniAppStore-TeamDorado_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MiniAppStore-TeamDorado_main.iml" group="MiniAppStore-TeamDorado" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MiniAppStore-TeamDorado_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MiniAppStore-TeamDorado_test.iml" group="MiniAppStore-TeamDorado" />
+    </modules>
+  </component>
+</project>
