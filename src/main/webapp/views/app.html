@@ -1,6 +1,8 @@
 <div ng-repeat= "app in applist.content" class="event">
   <a href="#/{{$index}}">
     <h3 class="name"> {{app.trackCensoredName}} </h3>
-    <p><span class="from"> {{app.artistName}} </span> Rating: <span class="to"> {{app.averageUserRating}} </span></p>
+    </br>
+    <img ng-src="{{app.artworkUrl100}}">
+    <p><span class="from"> {{app.artistName}} </span> </br>Rating: <span class="to"> {{app.averageUserRating}} </span></p>
   </a>
 </div>
