@@ -2,7 +2,7 @@
 
 ## How to Run
 
-Download this branch to your local machine and run index.html on any server.
+Download this branch to your local machine and run as springboot project on any server. Then go to http://localhost:8080/#/
 
 ### Must Have
 * Install ElasticSearch 1.4.0 and run it before launch this project
