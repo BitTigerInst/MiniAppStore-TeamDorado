@@ -104,3 +104,12 @@ p.time {
     background: url('next.svg') center center #cc2344;
     background-size: 80px 80px;
 }
+
+.detail{
+	padding: 50px 30px 50px 80px;
+}
+
+.detailname
+{
+	padding: 50px 30px 50px 80px;
+}
