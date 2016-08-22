@@ -3,6 +3,10 @@
 ## How to Run
 
 Download this branch to your local machine and run index.html on any server.
+  ### Must Have
+* Install ElasticSearch 1.4.0 and run it before launch this project
+* About ElasticSearch 1.4.0 https://www.elastic.co/blog/elasticsearch-1-4-0-released
+* After download ElasticSearch, how to run: go to the directly of elasticsearch folder in your terminal and then input:  ./bin/elasticsearch
 
 ## 1\. Proposal
 
