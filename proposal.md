@@ -12,7 +12,7 @@ This project provides an introduction to full-stack web app development using JA
 - [ ] User Login & logout
 - [ ] Navigation
 - [ ] Category
-- [ ] Top 10 APP List
+- [x] Top 10 APP List
 - [ ] APP details
 - [ ] Multi-language support(Optional)
 - [ ] SQL + noSQL database(Optional)
