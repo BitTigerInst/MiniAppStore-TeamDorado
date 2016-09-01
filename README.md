@@ -51,5 +51,5 @@ Download this branch to your local machine and run index.html on any server.
 	mini-app
 	team-darado
 
-
+- copyright
 
