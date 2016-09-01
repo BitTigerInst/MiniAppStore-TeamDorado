@@ -19,7 +19,7 @@ Download this branch to your local machine and run index.html on any server.
   - Time Schedule
 
 - Resource
-
+	some resource in master
 - License
 - Project Information
 
